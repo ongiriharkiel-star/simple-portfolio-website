@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harkiel k. | Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--header and navigation-->
+    <header class="header">
+        <div class="container">
+            <a href="#home" class="logo">harkiel k.</a>
+            
+            <nav class="nav">
+                <a href="#home" class="nav-link">home</a>
+                <a href="#about" class="nav-link">about</a>
+                <a href="#projects" class="nav-link">projects</a>
+                <a href="#contact" class="nav-link">contact</a>
+                <a href="#skills" class="nav-link">resume</a>
+            </nav>
+        </div>
+    </header>     
+    
+
+<!-- main section -->
+    <main>
+        <section class="home" id="home">
+            <!-- hero section -->
+            <div class="hero-greeting">
+               <p class="hero-name">Harkiel K.</p>
+               <p class="hero-tagline">Web Developer based in Nairobi, Kenya building digital experiences.currently studying at mactaba labs.</p>
+               <div class="hero button">
+                <a href="#projects"class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+               </div>
+            </div>
+        </section>
+
+         <!-- About Section -->
+        <section class="about" id="about"> 
+            <div class ="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-content">
+                    <div class="about-image">
+                        <img src="images/profile.jpg" alt="Harkiel K.">
+                    </div>
+                    <p class="section-description">I am a passionate web developer with a strong interest in creating user-friendly and visually appealing websites. I have experience in HTML, CSS, JavaScript, and various web development frameworks. I enjoy learning new technologies and continuously improving my skills to deliver high-quality web solutions.</p>
+                    <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>    
+            </div>
+        </section>
+     
+     <!-- skills section -->
+     <section  class="skills" id="skills" >
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-subtitle">Here are some of my technical skills:</p>
+        <div class="skills-grid">
+            <span class="skill-tag">HTML</span> 
+            <span class="skill-tag">CSS</span> 
+            <span class="skill-tag">JavaScript</span> 
+            <span class="skill-tag">React</span> 
+            <span class="skill-tag">Node.js</span> 
+            <span class="skill-tag">python</span>
+            <span class="skill-tag">figma</span> 
+        </div>
+       </div>
+      </section>
+
+        
+        <!-- Projects Section -->
+        <section  class="projects" id="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-subtitle">Here are some of my recent projects:</p>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="image-placeholder">project screenshot</div>
+                    </div>
+                    <!-- Project Info -->
+                    <div class="project-info">
+                        <h3 class="project-title">Nairobi Weather App</h3>
+                        <p class="project-description">A simple weather application for Nairobi, displaying current conditions and forecasts.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project</a>
+                            <a href="#" class="project-link">Source Code</a>
+                        </div>
+
+                        <!-- form -->
+                        <div class="form-group">
+                            <label for="Your Name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Your Email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div> 
+
+                        <div class="form-group">
+                            <label for="Your Message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                       <br>
+                        <br>
+
+                        <!-- Footer -->
+                        <footer class="footer">
+                            <div class="container">
+                                <p>&copy; 2026 Harkiel K. All rights reserved.</p>
+                            </div>
+                        </footer>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
