@@ -34,7 +34,7 @@ body{
         font-size: 2rem;
         font-weight: 700;
         text-align: center;
-        margin-top: 8px;
+        margin-top: 10px;
         color:#2d3436
      }
 
@@ -60,20 +60,20 @@ body{
 
      }
      .btn-primary{
-        background-color: #0984e3;
+        background-color: #f3c13a;
         color: #ffffff;
 
      }
      .btn-primary:hover{
-        background-color: #0770c2;
+        background-color: #31b2f3;
      }
      .btn-secondary{
         background-color: transparent;
-        color: #0984e3;
+        color: #f87c2a;
         border: 2px solid #0984e3;
      }
      .btn-secondary:hover{
-        background-color: #0984e3;
+        background-color: #096fe3;
         color: #ffffff;
      }
      /* heading styles */
@@ -82,7 +82,7 @@ body{
         top: 0;
         left: 0;
         width: 100%;
-        background-color: #ffffff;
+        background-color: #f5f99e;
         border-bottom: 1px solid #e9ecef;
         z-index: 1000;
         padding: 16px 0;
@@ -97,7 +97,7 @@ body{
      .logo{
         font-size: 1.5rem;
         font-weight: 700;
-        color: #0984e3;
+        color: #070903;
      }
 
      .nav {
@@ -107,11 +107,11 @@ body{
      .nav-link{
         font-size: 1rem;
         font-weight: 500;
-        color: #0984e3;
+        color: #03070a;
         transition: color 0.3s ease;
      }
         .nav-link:hover{
-            color: #0984e3;
+            color: #f21010;
         
         }
          /* hero section */
@@ -119,13 +119,13 @@ body{
             min-height: 100vh;
             display: flex;
             align-items: center;
-            background-color: #f8f9fa;
+            background-color: #e0cab4;
             padding: 120px 80px;
 
          }
          .hero-greeting{
             font-size: 1.2rem;
-            color: #0984e3;
+            color: #171104;
             margin-bottom: 16px;
             font-weight: 800;
             line-height: 1.2;
@@ -134,7 +134,7 @@ body{
          .hero-name{
             font-size: 3.5rem;
             font-weight: 560;
-            color: #636e72;
+            color: #050505;
             margin-bottom: 32px;
             line-height: 1.2;
          }
@@ -180,7 +180,7 @@ body{
 
          .about-text p{
             margin-bottom: 16px;
-            color: #4a5568;
+            color: #272b31;
             font-size: 1.02rem;
             line-height: 1.75;
 
@@ -191,7 +191,7 @@ body{
          /* skills section */
             .skills{
                 padding: 100px 0;
-                background-color: #f8f9fa;
+                background-color: #e9d481;
             }
 
             .skills-grid{
@@ -204,15 +204,15 @@ body{
                 display: inline-block;
                 padding: 10px 124px;
                 background-color: #ffffff;
-                color: #0984e3;
-                border: 2px solid #0984e3;
+                color: #fb8a2d;
+                border: 2px solid #9fd5ff;
                 border-radius: 30px;
                 font-size: 0.95rem;
                 font-weight: 600;
                 transition: background-color 0.3s ease, color 0.3s ease;
             }
             .skill-tag:hover{
-                background-color: #0984e3;
+                background-color: #ffda37;
                 color: #ffffff;
             }
 
@@ -309,12 +309,12 @@ body{
                 background-color: #2d3436;
                 color:#b2bec3;
             }
-            .footer-content{
+            .footer-content {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-            
             }
+            
             .footer-text p{
                 font-size: 0.95rem;
             }
